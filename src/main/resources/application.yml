@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: windows
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/auto_platform?useSSL=false&user=root&password=root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+server:
+  port: 8080
+  context-path: /
+
+
