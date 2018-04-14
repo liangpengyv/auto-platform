@@ -1,2 +1,3 @@
 # auto-platform
-A simple back-end server program that provides Continuous Integration services.  It runs on the windows platform.
+
+对应客户端程序：[ci-client](https://github.com/liangpengyv/ci-client)
